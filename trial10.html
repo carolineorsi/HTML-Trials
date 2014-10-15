@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Trial 10</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            .input {
+                display: inline-block;
+                position: absolute;
+                left: 125px;
+            }
+
+ /*           .input {
+                position: absolute;
+                left: 125px;
+
+            }
+            div {
+                padding: 3px;
+            }*/
+            form div {
+                line-height: 25px;
+            }
+            div.box {
+                background-color: #cccccc;
+                width: 300px;
+                padding: 5px;
+            }
+            div#left {
+                height: 200px;
+            }
+            div#right {
+                height: 175px;
+                position: absolute;
+                margin-left: 325px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Columns!</h1>
+
+        <div id="right" class="box">
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="input"></input>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="text" name="age" class="input"></input>
+                </div>
+                <div>
+                    <label for="favecolor">Favorite Color</label>
+                    <select name="favecolor" class="input">
+                        <option value="red">red</option>
+                        <option value="green">green</option>
+                        <option value="blue">blue</option>
+                        <option value="fuschia">fuschia</option>
+                        <option value="magenta" selected>magenta</option>
+                    </select>
+                </div>
+                <div>
+                    Love Music<input type="radio" name="music" class="input"></input>
+                </div>
+                <div>
+                    Hate Music<input type="radio" name="music" class="input"></input>
+                </div>
+                <div>
+                    Is it raining?<input type="checkbox" name="rain" class="input"></input>
+                </div>
+                <div>
+                    <input type="submit" />
+                </div>
+            </form>
+        </div>
+        <div id="left" class="box">
+            <h2>Here is a list of things.</h2>
+            <ul>
+                <li>Banana</li>
+                <li>Rabbit holes</li>
+                <li>John Quincy Adams</li>
+                <li>A sea serpent</li>
+            </ul>
+        </div>
+    </body>
+</html>
