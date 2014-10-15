@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Trial 4</title>
+        <style>
+            body {
+                margin: 0;
+            }
+
+            div.bar {
+                display: inline-block;
+                width: 100px;
+                height: 200px;
+                float: left;
+                /* this also works like 'float: left;'
+                margin-right: -4px;
+                */
+            }
+            div#whole {
+                border: 5px solid black;
+                width: 300px;
+                height: 200px;
+                margin: 0;
+            }
+            div#green {
+                background-color: green;
+            }
+            div#white {
+                background-color: white;
+            }
+            div#red {
+                background-color: red;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="whole">
+            <div id="green" class="bar"></div>
+            <div id="white" class="bar"></div>
+            <div id="red" class="bar"></div>
+        </div>
+
+    </body>
+</html>
