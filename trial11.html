@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Trial 11</title>
+        <style>
+            div.row {
+                width: 610px;
+                height: 130px;
+                margin: 10px;
+                background-color: #555555;
+            }
+            div.box {
+                background-color: #cccccc;
+            }
+            div#first > div.box {
+                height: 110px;
+                width: 180px;
+                margin: 10px 0 0 17px;
+                display: inline-block;
+            }
+            div#second > div.box {
+                width: 140px;
+                margin-top: 10px;
+                margin-left: 10px;
+                display: inline-block;
+                vertical-align: top;
+            }               
+            div.row2boxOdd {
+                height: 100px;
+            }
+            div.row2boxEven {
+                height: 75px;
+            }
+            div#third > div.box {
+                width: 290px;
+                margin-top: 10px;
+                margin-left: 10px;
+                display: inline-block;
+            }
+            div#row3left {
+                height: 35px;
+            }
+            div#row3right {
+                height: 110px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="first" class="row"><div class="box"></div><div class="box"></div><div class="box"></div>
+        </div>
+        <div id="second" class="row">
+            <div class="box row2boxOdd"></div><div class="box row2boxEven"></div><div class="box row2boxOdd"></div><div class="box row2boxEven"></div>
+        </div>
+        <div id="third" class="row">
+            <div class="box" id="row3left"></div>
+            <div class="box" id="row3right"></div>
+        </div>
+    </body>
+</html>
